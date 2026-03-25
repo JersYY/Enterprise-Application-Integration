@@ -1,0 +1,95 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:product-api >-----------------------
+[INFO] Building product-api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ product-api ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ product-api ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ product-api ---
+[INFO] skip non existing resourceDirectory /home/jersyy/eai/2/product-api/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ product-api ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ product-api ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.productapi.controller.ProductControllerTest
+23:46:31.559 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.productapi.controller.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:46:31.671 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.productapi.ProductApiApplication for test class com.example.productapi.controller.ProductControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-03-25T23:46:31.999+07:00  INFO 4351 --- [           main] c.e.p.controller.ProductControllerTest   : Starting ProductControllerTest using Java 17.0.14 with PID 4351 (started by jersyy in /home/jersyy/eai/2/product-api)
+2026-03-25T23:46:32.001+07:00  INFO 4351 --- [           main] c.e.p.controller.ProductControllerTest   : No active profile set, falling back to 1 default profile: "default"
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-03-25T23:46:33.791+07:00  INFO 4351 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-25T23:46:33.792+07:00  INFO 4351 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-25T23:46:33.796+07:00  INFO 4351 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-03-25T23:46:33.820+07:00  INFO 4351 --- [           main] c.e.p.controller.ProductControllerTest   : Started ProductControllerTest in 2.095 seconds (process running for 2.894)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.723 s -- in com.example.productapi.controller.ProductControllerTest
+[INFO] Running com.example.productapi.service.ProductServiceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.229 s -- in com.example.productapi.service.ProductServiceTest
+[INFO] Running com.example.productapi.model.ProductTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.example.productapi.model.ProductTest
+[INFO] Running com.example.productapi.repository.ProductRepositoryTest
+2026-03-25T23:46:34.397+07:00  INFO 4351 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.productapi.repository.ProductRepositoryTest]: ProductRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-25T23:46:34.413+07:00  INFO 4351 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.productapi.ProductApiApplication for test class com.example.productapi.repository.ProductRepositoryTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-03-25T23:46:34.439+07:00  INFO 4351 --- [           main] c.e.p.repository.ProductRepositoryTest   : Starting ProductRepositoryTest using Java 17.0.14 with PID 4351 (started by jersyy in /home/jersyy/eai/2/product-api)
+2026-03-25T23:46:34.440+07:00  INFO 4351 --- [           main] c.e.p.repository.ProductRepositoryTest   : No active profile set, falling back to 1 default profile: "default"
+2026-03-25T23:46:34.601+07:00  INFO 4351 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25T23:46:34.639+07:00  INFO 4351 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2026-03-25T23:46:34.684+07:00  INFO 4351 --- [           main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-03-25T23:46:34.725+07:00  INFO 4351 --- [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:5ab300f0-9af5-4713-8d72-22f8b0c4384b;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-25T23:46:34.943+07:00  INFO 4351 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-25T23:46:34.989+07:00  INFO 4351 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-03-25T23:46:35.017+07:00  INFO 4351 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-25T23:46:35.111+07:00  INFO 4351 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25T23:46:35.676+07:00  INFO 4351 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table products (id bigint generated by default as identity, name varchar(255) not null, price float(53) not null, stock integer not null, primary key (id))
+2026-03-25T23:46:35.723+07:00  INFO 4351 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T23:46:35.952+07:00  INFO 4351 --- [           main] c.e.p.repository.ProductRepositoryTest   : Started ProductRepositoryTest in 1.537 seconds (process running for 5.027)
+Hibernate: insert into products (name,price,stock,id) values (?,?,?,default)
+Hibernate: insert into products (name,price,stock,id) values (?,?,?,default)
+Hibernate: select p1_0.id,p1_0.name,p1_0.price,p1_0.stock from products p1_0
+Hibernate: insert into products (name,price,stock,id) values (?,?,?,default)
+Hibernate: insert into products (name,price,stock,id) values (?,?,?,default)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.860 s -- in com.example.productapi.repository.ProductRepositoryTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.660 s
+[INFO] Finished at: 2026-03-25T23:46:36+07:00
+[INFO] ------------------------------------------------------------------------

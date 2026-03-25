@@ -1,0 +1,9 @@
+$ curl -i -s http://localhost:8080/api/products
+
+HTTP/1.1 200
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json
+
+[]

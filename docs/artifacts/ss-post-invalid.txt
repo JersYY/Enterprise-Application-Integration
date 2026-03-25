@@ -1,0 +1,11 @@
+$ curl -i -s -X POST http://localhost:8080/api/products \
+  -H "Content-Type: application/json" \
+  -d '{"name":"","price":-100.0,"stock":-5}'
+
+HTTP/1.1 400
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json
+
+{"price":"Harga harus lebih besar dari 0","name":"Nama produk tidak boleh kosong","stock":"Stok tidak boleh negatif"}
