@@ -1,6 +1,6 @@
 # Product API
 
-Backend Spring Boot untuk modul praktikum Fullstack EAI dengan studi kasus manajemen produk.
+Backend Spring Boot untuk Tugas 3 Fullstack Enterprise Application Integration B.
 
 ## Fitur
 
